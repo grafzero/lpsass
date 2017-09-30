@@ -1,0 +1,127 @@
+body {
+  background-color: #292929;
+  color: white;
+  margin: 0;
+  font-family: "Open Sans", sans-serif; }
+
+div#mainWrapper {
+  width: 100%;
+  height: 800px;
+  background-image: url(../img/background.png);
+  background-size: cover;
+  position: relative; }
+
+div#mainWrapper div#header {
+  width: 100%;
+  height: 80px; }
+
+div#mainWrapper div#header div#phone,
+div#mainWrapper div#header div#logo {
+  width: 50%;
+  text-align: center;
+  float: left;
+  padding-top: 30px;
+  position: relative; }
+
+div#mainWrapper div#header div#logo i.fa {
+  color: #ecd407;
+  font-size: 35px; }
+
+div#mainWrapper div#header div#phone i.fa {
+  display: inline-block;
+  font-size: 35px; }
+
+div#mainWrapper div#header div#logo {
+  font-size: 30px;
+  font-weight: 800; }
+
+div#mainWrapper div#header div#phone span#callUs {
+  font-size: 10px;
+  display: inline-block;
+  position: absolute;
+  top: 25px; }
+
+div#mainWrapper div#header div#phone span#phoneNo {
+  position: absolute;
+  display: inline-block;
+  top: 40px;
+  left: 52%; }
+
+div#mainWrapper div#contactBox {
+  position: absolute;
+  width: 400px;
+  text-align: left;
+  top: 25%;
+  right: 18%; }
+
+div#mainWrapper div#contactBox p {
+  font-weight: 600;
+  font-size: 23px; }
+
+div#mainWrapper div#contactBox p span.yellow {
+  color: #ecd407; }
+
+div#mainWrapper div#contactFormWrapper {
+  background-color: #001d8a;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+div#mainWrapper div#contactFormWrapper span:first-child {
+  margin-left: 5%; }
+
+div#mainWrapper div#contactFormWrapper form input,
+div#mainWrapper div#contactFormWrapper form textarea {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10px;
+  height: 40px;
+  font-family: "Open Sans", sans-serif;
+  padding-left: 5px; }
+
+div#mainWrapper div#contactFormWrapper form button {
+  height: 50px;
+  width: 100px;
+  background-color: #ecd407;
+  margin-left: 5%;
+  margin-top: 10px;
+  border: 1px solid transparent;
+  font-weight: bold;
+  font-size: 16px; }
+
+div#footerWrapper {
+  width: 100%;
+  text-align: center; }
+
+div#footerWrapper p {
+  font-size: 13px;
+  clear: both;
+  padding-top: 50px; }
+
+div#footerWrapper div#footerIcons {
+  font-size: 15px;
+  font-weight: 300;
+  width: 80%;
+  margin: 0 auto; }
+
+div#footerWrapper div#footerIcons div {
+  width: 50%;
+  text-align: center;
+  float: left;
+  padding-top: 30px;
+  font-size: 40px;
+  color: #ecd407;
+  display: inline-block; }
+
+div#footerWrapper div#footerIcons div i {
+  display: block;
+  margin-bottom: -10px; }
+
+div#footerWrapper div#footerIcons div span {
+  color: white;
+  font-size: 15px; }
+
+@media (max-width: 1000px) {
+  div#mainWrapper div#contactBox {
+    width: 86%;
+    top: 25%;
+    left: 7%; } }
