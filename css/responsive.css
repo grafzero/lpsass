@@ -1,0 +1,5 @@
+@media (max-width: 1000px) {
+  div#mainWrapper div#contactBox {
+    width: 86%;
+    top: 25%;
+    left: 7%; } }

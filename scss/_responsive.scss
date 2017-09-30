@@ -1,0 +1,99 @@
+@import 'variables';
+@media (max-width: 1000px) {
+    div#mainWrapper {
+        div#header {
+            div#phone,
+            div#logo {
+                width: 100%;
+                
+            }
+        }
+    }
+    div#mainWrapper {
+        div#header {
+            div#logo {
+                font-size: $iconSize + 20;
+                font-weight: 800;
+            }
+        }
+    }
+    
+   
+    
+    div#mainWrapper {
+        div#header {
+            div#logo i.fa {
+                color: $fontSecondaryColor;
+                font-size: $iconSize + 25;
+            }
+        }
+    }
+    
+    div#mainWrapper {
+        div#header {
+            div#phone i.fa {
+               
+                font-size: $iconSize + 25;
+            }
+        }
+    } 
+    
+    
+    
+    div#mainWrapper {
+    div#header {
+        div#phone {
+            span#callUs {
+                font-size: $iconSize - 15;
+                display: inline-block;
+                position: relative;
+                top: 0;
+                left: 0;
+                display: none;
+            }
+        }
+    }
+}
+
+div#mainWrapper {
+    div#header {
+        div#phone {
+            span#phoneNo {
+                position: relative;
+                display: inline-block;
+                font-size: 60px;
+               
+                top: 0;
+                left: 0;
+               
+            }
+        }
+    }
+}
+    
+    
+    
+    
+    
+    
+    
+    div#mainWrapper {
+        div#contactBox {
+            width: 86%;
+            top: 25%;
+            left: 7%;
+        }
+    }
+    div#mainWrapper {
+        div#contactFormWrapper {
+            form {
+                input,
+                textarea {
+                    height: 80px;
+                    line-height: 70px;
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}

@@ -1,4 +1,5 @@
 @import 'variables';
+
 body {
     background-color: $bgColor;
     color: $fontMainColor;
@@ -118,6 +119,7 @@ div#mainWrapper {
         background-color: $blueColor;
         padding-top: 10px;
         padding-bottom: 10px;
+       
     }
 }
 
@@ -211,12 +213,6 @@ div#footerWrapper {
     }
 }
 
-@media (max-width: 1000px) {
-    div#mainWrapper {
-        div#contactBox {
-            width: 86%;
-             top: 25%;
-       left: 7%; 
-        }
-    }
-}
+@import 'responsive';
+
+

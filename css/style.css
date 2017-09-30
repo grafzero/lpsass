@@ -121,7 +121,36 @@ div#footerWrapper div#footerIcons div span {
   font-size: 15px; }
 
 @media (max-width: 1000px) {
+  div#mainWrapper div#header div#phone,
+  div#mainWrapper div#header div#logo {
+    width: 100%; }
+  div#mainWrapper div#header div#logo {
+    font-size: 55px;
+    font-weight: 800; }
+  div#mainWrapper div#header div#logo i.fa {
+    color: #ecd407;
+    font-size: 60px; }
+  div#mainWrapper div#header div#phone i.fa {
+    font-size: 60px; }
+  div#mainWrapper div#header div#phone span#callUs {
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none; }
+  div#mainWrapper div#header div#phone span#phoneNo {
+    position: relative;
+    display: inline-block;
+    font-size: 60px;
+    top: 0;
+    left: 0; }
   div#mainWrapper div#contactBox {
     width: 86%;
     top: 25%;
-    left: 7%; } }
+    left: 7%; }
+  div#mainWrapper div#contactFormWrapper form input,
+  div#mainWrapper div#contactFormWrapper form textarea {
+    height: 80px;
+    line-height: 70px;
+    font-size: 40px; } }
